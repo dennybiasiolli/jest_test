@@ -1,0 +1,19 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "test-watch": "jest --config=jest.config.json --coverage --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.0",
+    "jest": "^19.0.2",
+    "webpack": "^2.2.1"
+  }
+}
